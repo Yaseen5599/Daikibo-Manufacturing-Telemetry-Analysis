@@ -48,3 +48,54 @@ Business Questions:
 Created a calculated field:
 
 **Unhealthy**
+
+IF [Status] = "unhealthy" THEN 10 ELSE 0 END
+
+
+Each unhealthy message represents approximately 10 minutes of downtime.
+
+### Dashboard Development
+
+Built two interactive visualizations:
+
+- Factory Downtime
+- Machine Type Downtime
+
+Implemented dashboard actions allowing users to select a factory and automatically filter the machine-level analysis.
+
+---
+
+## Dashboard Features
+
+- Interactive filtering
+- Factory comparison
+- Machine category comparison
+- Clear business-focused KPIs
+- Simple navigation
+
+---
+
+## Tools Used
+
+- Tableau
+- JSON
+- Data Visualization
+- Calculated Fields
+
+---
+
+## Key Insights
+
+- Identified the factory with the highest accumulated downtime.
+- Identified machine categories responsible for the largest share of downtime.
+- Demonstrated how telemetry data can support predictive maintenance and operational monitoring.
+
+---
+
+## Future Improvements
+
+- Failure frequency analysis
+- Mean Time Between Failures (MTBF)
+- Predictive maintenance dashboard
+- Time-series trend analysis
+- Maintenance cost estimation
